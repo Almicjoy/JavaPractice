@@ -1,0 +1,36 @@
+package feb3Practice.SaveToDB;
+
+public class Student {
+	private int studentId;
+	private String studentName;
+	private String studentMajor;
+	public Student(int studentId, String studentName, String studentMajor) {
+		super();
+		this.studentId = studentId;
+		this.studentName = studentName;
+		this.studentMajor = studentMajor;
+	}
+	public Student() {
+		super();
+	}
+	public int getStudentId() {
+		return studentId;
+	}
+	public void setStudentId(int studentId) {
+		this.studentId = studentId;
+	}
+	public String getStudentName() {
+		return studentName;
+	}
+	public void setStudentName(String studentName) {
+		this.studentName = studentName;
+	}
+	public String getStudentMajor() {
+		return studentMajor;
+	}
+	public void setStudentMajor(String studentMajor) {
+		this.studentMajor = studentMajor;
+	}
+	
+	
+}
