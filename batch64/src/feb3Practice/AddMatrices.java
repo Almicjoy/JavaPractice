@@ -3,7 +3,7 @@ package feb3Practice;
 import java.util.ArrayList;
 import java.util.List;
 
-public class Matrices {
+public class AddMatrices {
 	
 	public List<List<Integer>> add(List<List<Integer>> matrix1, List<List<Integer>> matrix2){
 		List<List<Integer>> result = new ArrayList<>();
@@ -38,7 +38,7 @@ public class Matrices {
 		matrix2.get(1).add(3);
 		matrix2.get(1).add(4);
 		
-		Matrices m = new Matrices();
+		AddMatrices m = new AddMatrices();
 		System.out.println(m.add(matrix1, matrix2));
 		
 
